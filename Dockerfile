@@ -16,7 +16,8 @@ USER tracer
 # 	
 # ENV WEB_URL https://localhost:9000
 # ENV DB_URL https://localhost:9001
-# etc…
+# 
+# Variables are specified in subproject `gulpconfig.js` files.
 
 # Clone + build
 RUN git clone https://github.com/danhawkes/tracer-app.git
