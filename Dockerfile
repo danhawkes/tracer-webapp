@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # Create and run as non-root user
 RUN useradd -m tracer
-RUN mkdir /tracer & chown tracer /tracer
+RUN mkdir /tracer && chown tracer /tracer
 WORKDIR /tracer
 USER tracer
 
